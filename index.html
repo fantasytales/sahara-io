@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahara IO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <button id="muteButton" class="styled-button" style="position: absolute; top: 10px; right: 10px;">Mute</button>
+
+    <div id="startScreen" class="centered">
+        <button id="startButton" class="styled-button">Click to Start</button>
+        <button id="howToPlayButton" class="styled-button">How to Play</button>
+    </div>
+
+    <div id="howToPlayScreen" class="centered hidden">
+        <h2>How to Play</h2>
+        <ul>
+            <li><img src="assets/chaser.png" alt="Chaser"> Chaser: Follows the player</li>
+            <li><img src="assets/evader.png" alt="Evader"> Evader: Moves away from the player</li>
+            <li><img src="assets/random.png" alt="Random"> Random: Moves randomly</li>
+        </ul>
+        <button id="backButton" class="styled-button">Back to Start</button>
+    </div>
+
+    <button id="restartButton">Click to Restart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
